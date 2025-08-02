@@ -75,6 +75,22 @@ seed_topics = {
     # ...
 }
 
+# Example daily batches (replace with your real data):
+ daily_data = {
+     '2024-06-01': [
+         "Delivery guy was rude and late",
+         "Food was stale",
+         "Maps not working properly",
+         "Instamart should be open all night",
+         "Payment failed multiple times",
+         "Customer support was unresponsive",
+         "Please bring back 10 minute delivery",
+         "Order was delayed",
+         "Maps not loading properly",
+         "I love the app"
+    ],
+}
+
 agent = TopicLimiterReviewTrendAgent(seed_topics)
 
 # Process review data
